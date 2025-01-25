@@ -80,8 +80,8 @@ def run_validation(model, validation_ds, tokenizer_src, tokenizer_tgt, max_len, 
             # Print to the console
             print_msg('-'*console_width)
             print_msg(f'SOURCE: {source_text}')
-            print_msg(f'TARGET: {expected}')
-            print_msg(f'PREDICTED: {predicted}')
+            print_msg(f'TARGET: {target_text}')
+            print_msg(f'PREDICTED: {model_out_text}')
 
             if count == num_examples:
                 break        
